@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    max-width: 100%;
+}
+.ribon{
+   position: sticky;
+    top: 0px;
+    z-index: 100; 
+}
+.container{ 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(107, 83, 83);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 4px 10px;
+  
+} 
+
+.left{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+ 
+
+}
+.container a{ 
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+}
+.container a:hover{
+    color: aqua;
+}
+.container img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: absolute;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+ .container img:hover{
+    transform: scale(5);
+   
+}
+ .list a{ 
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+}
+.list a:hover{
+    color: aqua;
+}
+
+.right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.right li a{
+    text-decoration: none;
+    color: black;
+
+}
+.description{
+
+display: flex;
+}
+
+.back1{
+    background-color: rgb(41, 41, 172);
+
+    width: 70%;
+    height: 50vh;
+    z-index: 1;
+    opacity: 0.6;
+    
+    
+}
+.image img{
+    position: absolute;
+    z-index: 2;
+    width: 100px;
+    height: 120px;
+    left:70%;
+    top: 20vh;
+    transform: translateX(-50%);
+    border: 3px solid rgb(168, 145, 145);   
+}
+
+
+.back3{
+    background-color: rgb(112, 133, 55);
+  
+    width: 30%;
+    height: 50vh;
+    z-index: 1;
+    right: 0;
+    
+}
+.back1{
+ padding: 40px;
+
+}
+.back1 h1{
+  
+    color: rgb(129, 158, 51);
+   }
+  
+  
+   .details{
+  
+    padding-top: 20px;
+
+   }
+ .one{
+    font-size: small;
+   }
+  .tow{ position: absolute;
+    font-size: small;
+    left: 40vh;
+    top: 22vh;
+
+    
+   }
+
+   
+
+   /* Resoume */
+
+   .education{
+
+    
+    margin-top: 10px;
+    padding-left:6.5rem;
+    padding-right:6.5rem;
+    min-height: 100vh;
+ 
+    }
+    .education h1{
+     text-align: center;
+     margin-top: 10px;
+   
+    }
+ 
+    .subtitle{
+     font-size: 1.25rem;
+     line-height: 1.6rem;
+     width: 100px;
+  
+ 
+    }
+ 
+    .line{
+     background-color: #333;
+     width: 95px;
+     height: 5px;
+     margin: 1px;
+     border-radius: 1px;
+    }
+ 
+ .inner-line{
+     background-color: skyblue;
+     width: 28px;
+     height: 5px;
+     border-radius: 1px;
+     
+ }
+ 
+ 
+    
+ 
+ 
+ .up-edu{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ 
+     align-items: center;
+ }
+ 
+ .resume-list{
+     position: relative;
+     display: flex;
+     margin-top:20px ;
+  height: 50px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+    gap: 20px;
+    border-left: 2px solid #333;
+ }
+ 
+ .resume-duration{
+     background-color: #333;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 10px;
+     color: white;
+     line-height: 20px;
+ 
+ }
+ 
+ .resume-duration-container {
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+     
+ }
+ 
+ .round-div{
+     height: 24px;
+     width: 24px;
+     background-color: #222;
+     position: absolute;
+     border-radius: 50%;
+     left: -12.5px;
+ }
+ .resume-company {
+     opacity: 0.8;
+   }
+   
+ .description{
+     width: auto;
+ }
+
+
+ /*  Certificate Section */
+ .certificate{
+     
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .certificate-heading{
+    position: relative;
+    left: 45%;
+    align-items: center;
+   margin-left: auto;
+
+    margin-bottom: 100px;
+ }
+
+ .certificate-heading h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   
+ }
+
+ .certificate-line{ 
+  
+    background-color: #333;
+    width: 148px;
+    height: 5px;
+    align-items: center;
+}
+.certificate-innerline{ 
+   
+    background-color: #b61243;
+    width: 35px;
+    height: 5px;
+    align-items: center;
+}
+
+.certificate-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.certificate-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid #333;
+    padding-right: 20px;
+    height: 141px;
+    width: 420px;
+}
+.logo-institute{
+    background-color: #333;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logo-institute img{
+    background-color: #333;
+     width: 130px;
+     height: 141px;
+   
+  }
+  .certificate-description{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+  
+   
+    
+  }
+ .certificate-description > a{
+    text-decoration: none;
+    color: black;
+   transition: all 0.3s ease-in-out;
+ }
+ .certificate-description > a:hover,
+ .view-certificate > img:hover{
+    display: inline-block;
+    transform: translateX(2px);
+    color: rgb(150, 28, 28);
+
+ }
+
+ .view-all-certificate {
+    position: relative;
+   background-color: #F263A6;
+   align-items: center;
+   text-align: center;
+   left: 40%;
+   width: 200px;
+   border-radius: 20px;
+ }
+ .view-all-certificate > a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ .view-certificate > img{
+   width: 20px;
+   height: 20px;
+ }
